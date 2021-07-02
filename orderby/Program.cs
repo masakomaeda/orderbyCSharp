@@ -43,7 +43,6 @@ namespace orderby
             int[] retNumArry = new int[numArry.Count()];
             numArry.CopyTo(retNumArry, 0);
 
-
             for (var i = 0; i < numArry.Count(); i++)
             {
                 for (var j = 0; j < numArry.Count(); j++)
